@@ -5,6 +5,8 @@ import { SecondDemo } from "./Components/Demo"
 import PassingProps from "./Components/PassingProps"
 import StateVariable from "./Components/StateVariable"
 import EventHandling from "./Components/EventHandling"
+import Add from "./Components/Add"
+import Array from "./Components/Array"
 export default class App extends React.Component {
   render() {
     return (
@@ -13,7 +15,9 @@ export default class App extends React.Component {
       <SecondDemo/> */}
       {/* <PassingProps name="suprava" roll={100} /> */}
       {/* <StateVariable/> */}
-      <EventHandling/>
+      {/* <EventHandling/> */}
+      <Add/>
+      {/* <Array/> */}
       </div>
 
     )
