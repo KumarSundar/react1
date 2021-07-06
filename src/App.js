@@ -7,6 +7,8 @@ import StateVariable from "./Components/StateVariable"
 import EventHandling from "./Components/EventHandling"
 import Add from "./Components/Add"
 import Array from "./Components/Array"
+import ArrayOfObjects from "./Components/ArrayOfObjects"
+import ConditionalRenderning from "./Components/ConditionalRenderning"
 export default class App extends React.Component {
   render() {
     return (
@@ -16,8 +18,10 @@ export default class App extends React.Component {
       {/* <PassingProps name="suprava" roll={100} /> */}
       {/* <StateVariable/> */}
       {/* <EventHandling/> */}
-      <Add/>
+      {/* <Add/> */}
       {/* <Array/> */}
+      {/* <ArrayOfObjects/> */}
+      <ConditionalRenderning/>
       </div>
 
     )
