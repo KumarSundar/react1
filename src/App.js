@@ -9,6 +9,7 @@ import Add from "./Components/Add"
 import Array from "./Components/Array"
 import ArrayOfObjects from "./Components/ArrayOfObjects"
 import ConditionalRenderning from "./Components/ConditionalRenderning"
+import Main from "./Components/LifeCycle/Main"
 export default class App extends React.Component {
   render() {
     return (
@@ -21,7 +22,8 @@ export default class App extends React.Component {
       {/* <Add/> */}
       {/* <Array/> */}
       {/* <ArrayOfObjects/> */}
-      <ConditionalRenderning/>
+      {/* <ConditionalRenderning/> */}
+      <Main/>
       </div>
 
     )

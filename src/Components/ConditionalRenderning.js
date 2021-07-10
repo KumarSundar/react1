@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import "./Style.css"
 export class ConditionalRenderning extends Component {
   constructor(){
     super();
@@ -26,8 +26,10 @@ export class ConditionalRenderning extends Component {
 
         {/* {this.state.isLoggedIn===false &&
         <p>simple if statement</p>} */}
-        <input onChange={this.handleChange}></input>
-        <button disabled={this.state.input_text===""?true:false}>click me</button>
+        <h1 style={{backgroundColor:" blue" ,color:"black",margin:20,textAlign:"center"}}>Inline css</h1>
+        <button className="btn">click me</button>
+        {/* <input onChange={this.handleChange}></input>
+        <button disabled={this.state.input_text===""?true:false}>click me</button> */}
       </div>
     )
   }

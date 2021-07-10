@@ -52,20 +52,20 @@ export default class ArrayOfObjects extends React.Component{
               <th>city</th>
             </tr>
             </thead>
-           
+            <tbody>
             {this.state.arr.map((item,i)=>{ 
               return(
                 <>
-                <tbody key={i}>
-                <tr >
+                <tr key={i}>
                 <td>{item.name}</td>
                 <td>{item.city}</td>
               </tr>
-              </tbody>
+              
                 </>
               )
               
             })}
+            </tbody>
             <button onClick={this.handlePush}>PUSH </button>
             <button onClick={this.handlePop}>POP </button>
             
