@@ -11,6 +11,8 @@ import ArrayOfObjects from "./Components/ArrayOfObjects"
 import ConditionalRenderning from "./Components/ConditionalRenderning"
 import Main from "./Components/LifeCycle/Main"
 import Fetch_data from "./Components/APIs/Fetch_data"
+import Post_method from "./Components/APIs/Post_method"
+import Routing from "./Components/React_Router/Routing"
 export default class App extends React.Component {
   render() {
     return (
@@ -25,7 +27,10 @@ export default class App extends React.Component {
       {/* <ArrayOfObjects/> */}
       {/* <ConditionalRenderning/> */}
       {/* <Main/> */}
-      <Fetch_data/>
+      {/* <Fetch_data/> */}
+      {/* <Post_method/> */}
+
+      <Routing/>
       </div>
 
     )

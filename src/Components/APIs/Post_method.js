@@ -9,6 +9,16 @@ export class Post_method extends Component {
     }
   }
 
+  handleChangeEmail=(event)=>{
+    this.setState({
+      email:event.target.value
+    })
+  }
+  handlePassword=(event)=>{
+    this.setState({
+      password:event.target.value
+    })
+  }
   handleClick=()=>{
     fetch("https://reqres.in/api/login",{
       method:"POST",
@@ -28,8 +38,8 @@ export class Post_method extends Component {
   render() {
     return (
       <div>
-        <input type="text" placeholder="enter email"></input>
-        <input type="password" placeholder="password"></input>
+        <input type="text" placeholder="enter email" onChange={this.handleChangeEmail}></input>
+        <input type="password" placeholder="password" onChange={this.handlePassword}></input>
         <button onClick={this.handleClick}>login</button>
       </div>
     )
