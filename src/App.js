@@ -16,6 +16,11 @@ import Routing from "./Components/React_Router/Routing"
 import Grid_systems from "./Components/Material_UI/Grid_systems"
 import { CssObject } from "./Components/Material_UI/cssObject"
 import WithStyles_com from "./Components/Material_UI/withStyles_com"
+import Greet from "./Components/FunctionalComponent/Greet"
+import Hooks from "./Components/FunctionalComponent/Hooks"
+import ArrayValues from "./Components/FunctionalComponent/ArrayValues"
+import UpdateValues from "./Components/FunctionalComponent/UpdateValues"
+import UseEffect from "./Components/APIs/UseEffect"
 export default class App extends React.Component {
   render() {
     return (
@@ -36,7 +41,12 @@ export default class App extends React.Component {
       {/* <Routing/> */}
       {/* <Grid_systems/> */}
       {/* <CssObject/> */}
-      <WithStyles_com/>
+      {/* <WithStyles_com/> */}
+      {/* <Greet name="suprava"/> */}
+      {/* <Hooks/> */}
+      {/* <ArrayValues/> */}
+      {/* <UpdateValues/> */}
+      <UseEffect/>
       </div>
 
     )
